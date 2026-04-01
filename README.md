@@ -16,3 +16,4 @@ python -m uvicorn app.main:app --reload
 celery -A app.celery_app worker --loglevel=info --pool=solo
 redis-server.exe (port 6379)
 ```
+При необходимости сгенерированные тестовые данные находятся в папке test_data/
