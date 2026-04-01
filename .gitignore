@@ -24,8 +24,6 @@ venv.bak/
 *.xls
 *.log
 temp_files/
-test_input.txt
-large_test.txt
 report_*.xlsx
 
 # Celery
